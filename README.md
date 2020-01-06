@@ -9,7 +9,7 @@ Unfortunately Arduino HW SPI library do not support this kind of data transfer.
 Though, we have to enable it.
 
 ## Examples
-- Loopback is an example of 12-bit datad transfer.
+- Loopback is an example of 12-bit data transfer.
 
 ## Author
 
