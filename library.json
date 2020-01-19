@@ -1,5 +1,6 @@
 {
   "name": "SoftSPIB",
+  "version": "1.1.0",
   "keywords": "SoftSPIB, SPI",
   "description": "Software SPI class for Arduino with support of not 8-bit aligned transfers",
   "repository":
