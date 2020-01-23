@@ -80,32 +80,14 @@ void SoftSPIB::setDataMode(uint8_t mode) {
 }
 
 void SoftSPIB::setClockDivider(uint8_t div) {
-    switch (div) {
-        case SPI_CLOCK_DIV2:
-            _delay = 2;
-            break;
-        case SPI_CLOCK_DIV4:
-            _delay = 4;
-            break;
-        case SPI_CLOCK_DIV8:
-            _delay = 8;
-            break;
-        case SPI_CLOCK_DIV16:
-            _delay = 16;
-            break;
-        case SPI_CLOCK_DIV32:
-            _delay = 32;
-            break;
-        case SPI_CLOCK_DIV64:
-            _delay = 64;
-            break;
-        case SPI_CLOCK_DIV128:
-            _delay = 128;
-            break;
-        default:
-            _delay = 128;
-            break;
-    }
+    if (div == SPI_CLOCK_DIV2) _delay = 2;
+    else if (div == SPI_CLOCK_DIV4) _delay = 4;
+    else if (div == SPI_CLOCK_DIV8) _delay = 8;
+    else if (div == SPI_CLOCK_DIV16) _delay = 16;
+    else if (div == SPI_CLOCK_DIV32) _delay = 32;
+    else if (div == SPI_CLOCK_DIV64) _delay = 64;
+    else if (div == SPI_CLOCK_DIV128) _delay = 128;
+    else _delay = 128;
 }
 
 uint8_t SoftSPIB::transfer(uint8_t val) {
