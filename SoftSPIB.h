@@ -41,7 +41,7 @@
 
 #include <SPI.h>
 
-class SoftSPIB : public SPIClass {
+class SoftSPIB {
     private:
         uint8_t _cke;
         uint8_t _ckp;
