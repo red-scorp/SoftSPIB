@@ -1,6 +1,6 @@
 {
   "name": "SoftSPIB",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "keywords": "SoftSPIB, SPI",
   "description": "Software SPI class for Arduino with support of not 8-bit aligned transfers",
   "repository":
@@ -14,6 +14,7 @@
     "atmelavr",
     "atmelmegaavr",
     "ststm32",
-    "espressif8266"
+    "espressif8266",
+    "pico"
   ]
 }
