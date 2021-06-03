@@ -1,6 +1,6 @@
 /*
  * Copyright (c) 2014, Majenko Technologies
- * Copyright (c) 2020, Andriy Golovnya
+ * Copyright (c) 2020-2021, Andriy Golovnya
  * All rights reserved.
  * 
  * Redistribution and use in source and binary forms, with or without modification, 
@@ -40,6 +40,17 @@
 #endif
 
 #include <SPI.h>
+
+/* Hack for Raspberry Pico */
+#if !defined(SPI_CLOCK_DIV2)
+#define SPI_CLOCK_DIV2   2
+#define SPI_CLOCK_DIV4   4
+#define SPI_CLOCK_DIV8   8
+#define SPI_CLOCK_DIV16  16
+#define SPI_CLOCK_DIV32  32
+#define SPI_CLOCK_DIV64  64
+#define SPI_CLOCK_DIV128 128
+#endif
 
 class SoftSPIB {
     private:
