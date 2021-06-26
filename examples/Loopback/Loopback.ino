@@ -5,7 +5,7 @@
 // Pin 2 = MOSI,
 // Pin 3 = MISO,
 // Pin 4 = SCK
-SoftSPIB mySPI(12, 13, 4);
+SoftSPIB mySPI( 2, 3, 4);
 
 void setup() {
 	mySPI.begin();
