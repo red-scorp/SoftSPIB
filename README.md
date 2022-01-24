@@ -15,3 +15,10 @@ Though, we have to enable it.
 
 Maintener: [Andriy Golovnya](http://github.com/red-scorp/).
 Based on code of [Majenko Technologies](http://github.com/MajenkoLibraries/SoftSPI).
+
+## How to help
+
+Your contributions as code, resources or finances are welcome!
+Please contact me directly over e-mail andriy.golovnya@gmail.com or over [GitHub profile](https://github.com/red-scorp).
+Link for [Paypal donations](http://paypal.me/redscorp) and [Ko-Fi donations](http://ko-fi.com/redscorp), which are always welcome.
+Thanks in advance!
