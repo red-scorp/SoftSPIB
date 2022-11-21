@@ -1,4 +1,5 @@
 # SoftSPIB
+[![Compile Examples](https://github.com/red-scorp/SoftSPIB/workflows/Compile%20Examples/badge.svg)](https://github.com/red-scorp/SoftSPIB/actions?workflow=Compile+Examples)
 
 Software SPI (Bit) class for Arduino with support of not 8-bit aligned transfers.
 
